@@ -1,0 +1,15 @@
+.Footer__1{
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+    color: white;
+    
+}
+.Footer_main{
+    background: #0F2027;
+    margin-top: 10px;
+}
+.Footer__2{
+    text-align: center;
+    color: white;
+}

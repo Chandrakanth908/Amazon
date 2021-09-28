@@ -1,0 +1,31 @@
+.prd__img{
+    width: 200px;
+
+}
+.po-2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.po-3{
+    box-shadow: 0 2px 5px rgba (0,0,0,1);
+    text-align: center;
+    padding: 10px;
+    margin-left: 70px;
+    max-width: 300px;
+    width: 100%;
+
+}
+.but{
+    background-color: orange;
+}
+
+.P__star{
+    color:  orange;
+}
+
+
+.pri{
+    color: red;
+}
+

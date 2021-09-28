@@ -1,0 +1,36 @@
+.pro-1> img {
+    max-width: 280px;
+    display: flex;
+    
+}
+.pro-2{
+    text-align: center;
+    color: rgb(77, 6, 245);
+}
+.ProductCategory{
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+    text-align: center; */
+    margin-top: 10px;
+    
+}
+.pro-3{
+    color: black;
+}
+@media(max-width: 768px){
+    .productCategory h3{
+        font-size: 15px;
+        
+    }
+    .ProductCategory{
+        text-align: left;
+        max-width: 390px;
+        width: 100%;
+    }
+    .pro-1> img {
+        width: 200px;        
+    }
+    .pro-2{
+        text-align: left;
+    }
+    
+}

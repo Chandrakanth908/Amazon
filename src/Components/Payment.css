@@ -1,0 +1,10 @@
+.carthead container{
+    display: flex;
+}
+.payment__info{
+    border: 1px solid gainsboro;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+
+}

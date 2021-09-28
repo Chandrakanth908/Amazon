@@ -1,0 +1,30 @@
+.gam-1{
+    text-align: center;
+    
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.gam-2{
+    text-align: center;
+    
+    display: flex;
+}
+
+/* .gam-1 > Model{
+    display: flex;
+    justify-content: space-between;
+    
+} */
+
+/* .g-1{
+    box-shadow: 0  2px 2px rgba( 0,0,0,1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: whitesmoke;
+} */
+@media(max-width:768px){
+    .gam-1,.gam-2{
+        flex-direction: column;
+    }
+}

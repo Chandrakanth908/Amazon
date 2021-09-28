@@ -1,0 +1,132 @@
+
+.header__row{
+    display: flex;
+    background: #0F2027;
+    color: #fff;
+    padding: 10px;
+}
+.header__section1{
+    display: flex;
+}
+.header__location{
+    display: flex;
+    margin: 0;
+    margin-left: 20px;
+}
+.header__LoactionIcon{
+    margin-top: 8px;
+}
+.header__image{
+    width: 100px;
+    margin-top: 5px;
+}
+.header__address{
+    display: flex;
+    flex-direction: column;
+}
+.header__option1{
+    font-size: 12px;
+}
+.header__option2{
+    font-weight: 500;
+    font-size:12.5px;
+}
+.header__section2{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.header__search > input {
+    width: 700px;
+    height: 30px;
+    margin-left: 50px;
+    margin-bottom: 37px;
+    padding: 10px;
+    border: 2px solid #cd9842;
+    
+}
+.header__search {
+    width: 800px;
+    
+    align-items: center;
+    
+   
+}
+.header__searchIcon{
+    padding: 3px;
+    background: #cd9842;
+    align-items: center;
+    height: 30px !important;
+    color: black;
+    width: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;    
+    
+}
+.header__section3{
+    display: flex;
+}
+.header__language{
+    margin-left: 20px;
+    padding: 10px;
+}
+.header__IndainFlag{
+    width: 30px;
+}
+.header__signin{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}   
+.header__orders{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.header__cart{
+    margin-left: 20px;
+    size: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .header__row{
+        flex-direction: column;
+        padding: 1px;
+        width: 400px;
+    }
+    .header__search > input{
+        width: 300px;
+        margin-left: 3px;
+    }
+    .header__searchIcon{
+        margin-left: 1px;
+    }
+    .header__section1{
+        justify-content: space-between;
+    }
+    .header__image{
+        width: 120px;
+    }
+    .header__section2{
+        margin-top: 10px;
+    }
+    .header__section3{
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    /* .header{
+        position:fixed;
+    } */
+}
